@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIDY UP! - Family Game</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 15px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        nav {
+            background: rgba(255,255,255,0.95);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            padding: 8px 16px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover { background: #f0f0f0; }
+        nav a.active { background: #667eea; color: white; }
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .card h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        .card p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+            color: #555;
+        }
+        .card ul {
+            padding-left: 25px;
+            margin-bottom: 15px;
+        }
+        .card li {
+            line-height: 1.8;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        .emoji { font-size: 1.1em; }
+        .highlight {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: rgba(255,255,255,0.8);
+        }
+        footer a { color: white; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="TIDY UP! Logo">
+            <h1>TIDY UP!</h1>
+        </header>
+
+        <nav>
+            <a href="index.html" class="active">HOME</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="delete-account.html">Delete Account</a>
+        </nav>
+
+        <div class="card">
+            <h2>How to play?</h2>
+            <p><span class="emoji">🎮</span> <strong>Welcome to TIDY UP!</strong> <span class="emoji">🎮</span></p>
+            <p>TIDY UP! isn't a game designed to keep children glued to screens. Instead of providing an artificial sense of accomplishment, it's a tool that encourages children to spend quality time with their families in real life. During play, children use and develop many cognitive skills, such as attention, memory, problem-solving, and planning.</p>
+            <p>This game isn't designed for children to play alone, but rather for family play. Be together with your child, laugh together, and tidy up together; we highly recommend playing TIDY UP! as a family game.</p>
+            <p>It can be really frustrating when children mess up their rooms and never want to tidy them up. But think about it this way: Your child's days of freely messing up their room will be over in a few years. They won't be as messy as they are today again, and those days won't come back. The important thing is to enjoy these days together, right now, with quality and joy, as a family.</p>
+            
+            <h3 style="margin-top: 25px; color: #764ba2;">❓ How to Play TIDY UP!</h3>
+            <ul>
+                <li><span class="emoji">▶</span> Press the Start button.</li>
+                <li><span class="emoji">📷</span> If you prefer, take a photo of the room with your phone camera and the AI will generate the item list for you.</li>
+                <li><span class="emoji">✍</span> If you prefer, manually enter the item list in your room.</li>
+                <li><span class="emoji">🎮</span> Select the desired mode from the game modes page and complete it together.</li>
+                <li><span class="emoji">🎉</span> Enjoy!</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>General</h2>
+            <p>Do small conflicts feel familiar when trying to get your child to tidy their room? This game is designed for exactly this purpose :)</p>
+            <p>For children, "tidying the room" is often a boring, tiring, and unenjoyable task. But rooms getting messy is a very natural part of daily life. This game aims to transform the part your child finds boring—"room tidying"—into a game experience with stories, games, wheels, imitations, and surprises. In other words, the goal is to say "Let's play TIDY UP! together, and the items can be part of this game" instead of "Tidy your room!"</p>
+            <p>Also, the aim of this game is not to have the child tidy all the items one by one. While the modes are being played, items take turns "taking the stage"; your child tidies some items, you tidy some, and sometimes you place the same item together. This way, the room-tidying process stops being a task loaded on the child's shoulders and becomes a shared task and a common game for the family. For this reason, it is strongly recommended that you tidy the items by taking turns.</p>
+            <p>This application is not a system that verifies or supervises whether the room is really tidied. You completely decide what object is really tidied and whether the room is tidy enough for you. The application is just an aid that tells you which object will be the next "game hero" and manages the game flow.</p>
+            <p>This game is not designed as an application where the child stays alone in front of the screen. On the contrary, it is intended to be a parent–child game where your child plays with you, laughs with you, moves with you, and makes decisions with you. While you read the story, ask the question, and spin the wheel, you are not just tidying objects; you are also building a warm, fun, and safe bridge of communication between you and your child.</p>
+            
+            <p style="margin-top: 20px;"><strong>In summary, this game:</strong></p>
+            <ul>
+                <li>Aims to make the child who tidies their room feel like the game hero, not like someone who has "escaped punishment,"</li>
+                <li>Aims to transform the room-tidying process from a tiring daily discussion into pleasant time spent together,</li>
+                <li>Is designed to support parent and child moving side by side, laughing and playing, sometimes in turns and sometimes together, toward the same goal.</li>
+            </ul>
+            
+            <div class="highlight">
+                <strong>TIDY UP!</strong> offers you the opportunity to say to your child "Let's play TIDY UP! today; your room will tidy itself as part of this game" instead of saying "Let's tidy your room today."
+            </div>
+        </div>
+
+        <footer>
+            <p>TIDY UP! | <a href="mailto:tidyupgames@gmail.com">tidyupgames@gmail.com</a></p>
+        </footer>
+    </div>
+</body>
+</html>
